@@ -16,9 +16,9 @@ SELECT Sport,Country,COUNT(*) as fq
 FROM sample.summer_medals a
  WHERE YEAR > 1980
  Group by Sport, Country
- ORDER BY Sport,fq  DESC )) 
+ ORDER BY Sport,fq  DESC ))
+ Where status = champ
 ```
-NOT: Her sporun ilk satırı çözümümü yansıtıyor, grupların sadece ilk elemanını almakta sıkıntı yaşadım o yüzden bu haliyle bıraktım.
 	
 ## Soru 2
 1980’den itibaren herhangi bir spor grubunda üst üste 3 veya daha fazla madalya almış atletleri bulalım.
