@@ -45,7 +45,7 @@ Where sol IS NOT NULL
 
 	
 ## Soru 3
-To run this project, install it locally using npm:
+Bu çalışmada çıkarmak istediğimiz bilgi, günün her bir dakikası için aktif kullanıcı sayısının hesaplanması.
 
 ```
 SELECT * ,  sum(device) OVER (
