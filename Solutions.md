@@ -18,6 +18,7 @@ FROM sample.summer_medals a
  Group by Sport, Country
  ORDER BY Sport,fq  DESC )) 
 ```
+NOT: Her sporun ilk satırı çözümümü yansıtıyor, grupların sadece ilk elemanını almakta sıkıntı yaşadım o yüzden bu haliyle bıraktım.
 	
 ## Soru 2
 1980’den itibaren herhangi bir spor grubunda üst üste 3 veya daha fazla madalya almış atletleri bulalım.
